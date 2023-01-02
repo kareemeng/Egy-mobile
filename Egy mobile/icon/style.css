@@ -1,0 +1,812 @@
+.nav-home .bouttom, .nav .bouttom
+{
+display: inline;
+background: white;
+padding-right: 22;
+border-radius: 20px;
+}
+/*longin page*/
+
+.container-lognin
+{
+background-image: url(../img/22.jpg);
+position: relative;
+background-size: cover;
+height: 100%;
+width: 100%;
+display: inline-flex;
+justify-content: center;
+}
+.container-lognin .layer
+{
+    position: absolute;
+    background-color: #6647e066;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    z-index: 0;
+}
+.container-lognin .form
+{
+    position: absolute;
+    background: -webkit-linear-gradient(top, #f7ff75, #ef2424);
+    width: 400;
+    height: 600;
+    z-index: 5;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 5%;
+}
+.lognin-logo
+{
+    color: white;
+    text-align: center;
+    margin-top: 40;
+}
+.lognin-logo h2
+{
+    margin-top: 30;
+}
+form
+{
+    text-align: center;
+}
+.container-lognin .form .input-text input{
+    background: none;
+    border: none;
+    border-bottom: 2px solid;
+    width: 80%;
+    height: 50px;
+    margin-top: 40;
+}
+.input-text
+{
+    position: relative;
+}
+.input-text :focus
+{
+color:white;
+}
+.form form i
+{
+    color: white;
+    font-size: 18;
+    margin-top: 5;
+    text-align: end;
+    position: absolute;
+    top: 60;
+    right: 45;
+}
+form .checkbox
+{
+text-align: start;
+display: block;
+margin-top: 15;
+margin-left: 40;
+}
+form .submit
+{
+    text-align: center;
+
+}
+.container-lognin .form  .submit
+{
+    background: none;
+    border-radius: 10px;
+    font-size: 25;
+    height: 50px;
+    margin-top: 60;
+    display: block;
+    cursor: pointer;
+    text-align: center;
+}
+form ::placeholder
+{
+    color: white;
+    font-weight: 25 px;
+    font-weight: 300;
+    font-family: 'Fondamento', cursive;
+
+}
+.form a
+{
+    text-decoration: none;
+    color: white;
+    font-family: 'Fondamento', cursive;
+    font-size: 25;
+
+}
+@media(max-width: 450px)
+{
+    .container-lognin .form
+    {
+        width: 360;
+    }
+}
+
+/* end log in page*/
+
+/* create page */
+.container-create
+{
+background-image: url(../img/22.jpg);
+position: relative;
+background-size: cover;
+height: 100%;
+width: 100%;
+display: inline-flex;
+justify-content: center;
+}
+.container-create .logcreate-logo
+{
+    color: white;
+    margin-top: 20;
+}
+.container-create .layer
+{
+    position: absolute;
+    background-color: #6647e066;
+
+    width: 100%;
+    height: 100%;
+    top: 0;
+    z-index: 0;
+}
+.container-create .form
+{
+    position: absolute;
+    background: -webkit-linear-gradient(top, #f7ff75, #ef2424);
+    width: 600;
+    height: 600;
+    z-index: 5;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 50;
+}
+.container-create .form input
+{
+    background: none;
+    border: none;
+    border-bottom: 2px solid;
+    width: 80%;
+    height: 50px;
+    margin-top: 20;
+}
+.container-create .form .input-text,.container-create .form .input-password 
+{
+    display: inline-block;
+    width: 45%;
+}
+.container-create .form .input-ratio input
+{
+margin-left: 20;
+margin-right: 20;
+width: 40;
+}
+.container-create .form .input-ratio
+{
+    display:inline-block;
+    margin-right: 30;
+    margin-left: 20;
+    font-family: 'Fondamento', cursive;
+    margin-top: 20;
+}
+.container-create .form .submit 
+{
+margin-top: 40;
+    color: white;
+    font-size: 25;
+}
+@media(max-width: 650px)
+{
+    .container-create .form
+    {
+        width: 360;
+    }
+}
+/*End create page*/
+  
+/* home pagr*/
+.nav-home
+{
+    background: -webkit-linear-gradient(top, #f7ff75, #ef2424);
+height: 150;
+position: relative;
+width: 100%;
+background-size: cover;
+background-position: center;
+}
+
+.nav-home .logo i
+{
+    padding-right: 20;
+    text-align: center;
+  
+}
+.clear
+{
+    clear: both;
+}
+.nav-home .logo
+{
+   text-align: center;
+    padding-left: 15;
+}
+.nav-home .logo h1
+{
+    color: black;
+    font-style: italic;
+    text-align: centers;
+}
+.nav-home .r
+{
+position: absolute;
+right: 0;
+top: 75;
+    font-size: 25;
+  
+    z-index: 5;
+}
+.nav-home .r a
+{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+padding-right: 25;
+}
+.nav-home .r a:hover
+{
+    color: blue;
+}
+.nav-home .l
+{
+position: absolute;
+left: 0;
+top: 75;
+font-size: 25;
+z-index: 5;
+}
+.nav-home .l a
+{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+padding-left: 25;
+}
+.nav-home .l a:hover
+{
+    color: blue;
+}
+.imgtext-home
+{
+    z-index: 8;
+   position: relative;
+   padding-top: 10;
+}
+
+.imgtext-home .text h2{
+    color: white;
+    text-align: center;
+    font-size: 50;
+    font-family: Helvetica Neue Arabic,Open Sans,Arial;
+}
+ .imgtext-home .text
+{
+position: absolute;
+top: 0;
+left: 30;
+background-color: #ffffff7d
+
+}
+.imgtext-home .img
+{
+    position: relative;
+}
+.imgtext-home .img .layer
+{
+    position: absolute;
+    background-color: #ff52003d;
+    height: 100%;
+    width: 100%;
+    top: 0;
+}
+.imgnote-home
+{
+    margin-top: 40;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: palegoldenrod;
+    width: 80%;
+    margin-left:  10%;
+}
+.imgnote-home .img
+{
+    padding-right: 20;
+    display: inline;
+    padding-top: 40;
+    justify-content: center;
+    height: 270;
+    width: 400;
+}
+.imgnote-home .note .box
+{
+  text-align: end;
+  font-family: Helvetica Neue Arabic,Open Sans,Arial;
+}
+.imgnote-home .note .box .mark
+{
+    display: inline-block;
+    background-color: orangered;
+    height: 25;
+    width: 5;
+margin-top: 10;
+}
+.imgnote-home .note
+{
+    margin-top: 30;
+}
+.imgnote-home .note h2
+{
+    color: orange;
+    display: inline-block;
+}
+.heading1
+{
+    padding-top: 40;
+   text-align: center;
+   color: orangered;
+   font-family: HelveticaNeueW02,Open Sans,Arial;
+   font-size: 30;
+}
+.service 
+{
+    padding-top: 20;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: antiquewhite;
+}
+.service .box 
+{
+    font-size: 42;
+    text-align: center;
+    width: 30%;
+ 
+}
+.service .box .texxt h4
+{
+    color: gray;
+}
+.service .box .icon
+{
+    font-size: 50;
+    color: gray;
+}
+.service .box .icon i
+{
+    font-size: 35;
+    align-self: baseline;
+}
+.tamwel
+{
+    padding-top: 40;
+}
+.tamwel .text
+{
+    font-family:courier,arial,helvetica;
+    color: gray;
+    text-align: center;
+    margin-top: 100;
+}
+.tamwel img
+{
+    width: 100%;
+}
+.tamwel .text p
+{
+    font-size: 50;
+    font-family: 'Reem Kufi', sans-serif;
+}
+.container
+{
+    background-color: #eee8aa;
+margin-top: 40;
+width: 100%;
+text-align: center;
+}
+.container .fastlinks
+{
+    padding-top: 40;
+    text-align: center;
+    color: orangered;
+    font-family: HelveticaNeueW02,Open Sans,Arial;
+    font-size: 50;
+
+}
+.container .links2
+{
+    display: flex;
+    justify-content: center;
+flex-wrap: wrap;
+
+}
+.container .links2 .box
+{
+    display: inline-flex;
+    justify-content: center;
+    padding: 30;
+}
+.container .links2 .box a
+{
+text-decoration: none;
+color: blue;
+font-size: 30;
+}
+.container .links2 .box a:hover
+{
+    font-size: 35;
+
+}
+.footer
+{
+    background-color: #0a3d62;
+    
+    margin-top: 40;
+    height: 70;
+}
+.footer .logo
+{
+    display: inline-block;
+    float: left;
+    color: gray;
+    margin-left: 20;
+}
+.footer .connect 
+{
+    display: inline-block;
+    float: right;
+    font-size: 25;
+    margin-right: 20;
+}
+.footer .connect h2
+{
+    display: inline-block;
+    font-size: 25;
+    color: gray;
+}
+.footer .connect a{
+    display: inline-block;
+    font-size: 25;
+    color: gray;
+    margin-right: 20;
+}
+/* media home pade */
+@media (max-width:850px)
+{
+.tamwel .text
+{
+    margin-top: 0;
+}
+.imgtext-home .text h2
+{
+    font-size: 35;
+}
+}
+@media (max-width:570px)
+{
+    .imgnote-home
+    {
+        margin-left: 0;
+        width: 100%;
+    }
+    .imgtext-home .text
+    {
+        top: 50;
+        left: 0;
+    }
+    .footer 
+    {
+        height: 130;
+    }
+    .footer .logo
+    {
+        display: block;
+        text-align: center;
+        float: none;
+        padding-top:2 ;
+    }
+    .footer .connect
+    {
+        display: block;
+        text-align: center;
+        float: none;
+    }
+    .service .box 
+    {
+        font-size: 25;
+        
+    }
+    .imgtext-home .text h2
+    {
+        font-size: 30;
+
+    }
+
+}
+
+/*end home */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* about page */
+.nav
+{
+background: url(../img/7.jpg);
+height: 250;
+position: relative;
+width: 100%;
+background-size: cover;
+background-position: center;
+}
+.nav .layer
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background-color: #6647e03d;
+}
+.nav .logo i
+{
+    padding-right: 20;
+    text-align: center;
+  
+}
+.clear
+{
+    clear: both;
+}
+.nav .logo
+{
+   text-align: center;
+    padding-left: 15;
+}
+.nav .logo h1
+{
+    color: black;
+    font-style: italic;
+}
+.nav .r
+{
+position: absolute;
+right: 0;
+top: 45;
+    font-size: 25;
+  
+    z-index: 5;
+}
+.nav .r a
+{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+padding-right: 25;
+}
+.nav .r a:hover
+{
+    color: blue;
+}
+.nav .l
+{
+position: absolute;
+left: 0;
+top: 45;
+font-size: 25;
+z-index: 5;
+}
+.nav .l a
+{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+padding-left: 25;
+}
+.nav .l a:hover
+{
+    color: blue;
+}
+.nav .about
+{
+    text-align: center;
+    padding-top: 100;
+    color: black;
+}
+
+.media {
+    margin-top: 50;
+    display: flex;
+    justify-content: center;
+    font-family: 'Merienda One', cursive;
+background-color: #80808026;
+}
+.media-2
+{
+    margin-top: 50;
+    display: flex;
+    justify-content: center;
+    font-family: 'Merienda One', cursive;
+
+}
+img.mr-3{
+    width: 100%;
+    height: 330;
+}
+.media-body {
+    margin-top: 90;
+}
+.media-body {
+    margin-top: 50;
+    text-align: center;
+}
+h1.mt-0 {
+    color: gray;
+    margin-top: 50;
+}
+
+
+.header
+{
+    margin-top: 80;
+    text-align: center;
+    font-family: 'Merienda One', cursive;
+    color: gray;
+    
+}
+.header i
+{
+    font-size: 40;
+}
+.family .row
+{
+ 
+    text-align: center;
+    margin: 0;
+    justify-content:center;
+}
+.row
+{
+    margin-right: 0;
+}
+.card
+{
+    margin: auto;
+}
+img.card-img-top {
+    width: 100%;
+    height: 186;
+    position: relative;
+}
+.layer2
+{
+    height: 186;
+    width: 288;
+    background: #ff460040;
+    position: absolute;
+    top: 0;
+
+}
+.family p
+{
+    font-size: 20;
+}
+.butt
+{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    height: 80px;
+    width: 50;
+    background-color: gray;
+    display: none;
+}
+button i.fa.fa-arrow-up {
+    font-size: 40;
+}
+
+@media(max-width: 770px)
+{
+.header
+{
+    text-align: center;
+
+}
+.nav .l,.nav-home .l
+{
+    font-size: 20;
+}
+.nav .r,.nav-home .r
+{
+    font-size: 20;
+}
+}
+@media(max-width: 620px)
+{
+.nav .logo,.nav-home .logo
+{
+    text-align: start;
+}
+.nav .l,.nav-home .l
+{
+    font-size: 22;
+    left: 70;
+    top: 70;
+}
+.nav .r,.nav-home .r
+{
+    top: 12;
+    font-size: 20;
+}
+}
+
+@media(max-width: 500px)
+{
+.nav .logo,.nav-home .logo
+{
+    text-align: start;
+}
+.nav .l,.nav-home .l
+{
+    font-size: 22;
+    left: 20;
+    top: 70;
+}
+.nav .r,.nav-home .r
+{
+    top: 12;
+    font-size: 18;
+}
+}
+@media(max-width: 460px)
+{
+    .nav .logo h1,.nav-home .logo h1
+    {
+        font-size: 20;
+    }
+.nav .l,.nav-home .l
+{
+    font-size: 20;
+    top: 70;
+    left: 0;
+}
+.nav .r,.nav-home .r
+{
+    top: 5;
+    font-size: 15;
+}
+}
+@media(max-width: 991px)
+{
+    .media-2 .row
+    {
+        display: flex;
+        flex-wrap: wrap-reverse;
+        margin-top: 20;
+        margin-bottom: 20;
+    }
+}
